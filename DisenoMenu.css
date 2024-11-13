@@ -1,0 +1,374 @@
+body{
+    background: lightblue;
+    
+}
+#barralogo{
+    background-color:rgb(255, 255, 255);
+    position: fixed; /*fixed para que el logo y el boton para ir arriba sigan en la vista del usuario siempre*/
+    height: 50px;
+    width: 100vw;
+    margin-top: -8px;
+    margin-left: -7px;
+    z-index: 10;
+
+}
+#logo{ 
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 2px;
+}
+#arriba{ /*cambia el tamaño de la imagen del boton de arriba*/
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+#logo1{ /*cambia el tamaño de la imagen del logo*/
+    position: absolute;
+    width: 40px;
+    height: 45px;
+}
+#encabezado{ /*Encabezado donde estan contenidos los botones de acceso rapido a otras partes de la pagina*/
+    background: white;
+    position: absolute;
+    height: 142px;
+    width: 100vw;
+    margin-left: -7px;
+    margin-top: -8px;
+}
+
+#imgMenu{ /*tamaño imagen*/
+    width: 70px;
+}
+.iconos{ /*Ajusta las imagenes y sus textos en fila, dando espacio entre cada una*/
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    position: relative;
+    width: 70px;
+    margin-left: 405px;
+    margin-top: 48px;
+    text-align: center;
+    
+}
+.iconos p{ /*Ajustar los textos de las imagenes para que queden mas cerca por arriba*/
+    margin: -5px 0 0; 
+    
+}
+#promText{ /*ajuste del texto promociones para que se centre con su imagen*/
+    margin-left: -20px;
+}
+#imgGal{ /*tamaño imagen*/
+    width: 70px;
+}
+
+#imgProm{ /*tamaño imagen*/
+    width: 65px;
+}
+#Cuerpo{ /*div que contiene contenido general del restaurante*/
+    background: rgb(100, 190, 226);
+    position: absolute;
+    height: 700px;
+    width: 1600px;
+    margin-top: 185px;
+    margin-left: 150px;
+}
+#fotoExterior{
+    position: absolute;
+    background: lightcoral;
+    height: 345px;
+    width: 1200px;
+    margin: 5px 5px 5px 5px;
+    overflow: hidden;
+}
+#fotoExterior img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+#mapa{
+    position: absolute;
+    background: lightcoral;
+    height: 340px;
+    width: 600px;
+    margin: 355px 5px 5px 5px;
+    overflow: hidden;
+}
+#mapa img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#fotoInterior{
+    position: absolute;
+    background: lightcoral;
+    height: 340px;
+    width: 595px;
+    margin: 355px 5px 5px 610px;
+    overflow: hidden;
+}
+#fotoInterior img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#promocion{
+    position: absolute;
+    background: lightcoral;
+    width: 385px;
+    height: 225px;
+    margin: 5px 5px 5px 1210px;
+    overflow: hidden;
+}
+#promocion img{
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+
+}
+#imgDomicilio{
+    position: absolute;
+    background: lightcoral;
+    width: 385px;
+    height: 200px;
+    margin: 469px 5px 5px 1210px;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+#imgDomicilio img{
+    
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#redesSociales{
+    position: absolute;
+    background: lightcoral;
+    width: 385px;
+    height: 225px;
+    margin: 237px 5px 5px 1210px;
+    overflow: hidden;
+}
+#redesSociales img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+#Menu{ /*Barra para indicar el inicio de la parte del menu*/
+    background: rgb(255, 255, 255);
+    position: absolute;
+    height: 150px;
+    width: 1800px;
+    margin-top: 950px;
+    margin-left: 50px;
+    font-size: 50px;
+    text-align: center;
+   
+}
+#infoMenu{
+    background: rgb(100, 190, 226);
+    position: absolute;
+    height: 700px;
+    width: 1800px;
+    margin-top: 1150px;
+    margin-left: 50px;
+}
+#principal{
+    background: rgb(223, 102, 54);
+    position: absolute;
+    height: 690px;
+    width: 590px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+}
+#imagenPrincipal{
+    position: absolute;
+    width: 400px;       
+    height: 175px;      
+    background-color: #ffffff;
+    margin-top: 25px; 
+    margin-left: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    overflow: hidden;
+}
+#imagenPrincipal img{
+    width: 100%;          
+    height: auto;       
+    clip-path: ellipse(100% 200% at 50% 100%); 
+    object-fit: cover; 
+}
+#acompanamiento{
+    background: rgb(223, 102, 54);
+    position: absolute;
+    height: 590px;
+    width: 590px;
+    margin: 5px 5px 5px 605px;
+    text-align: center;
+    padding-top: 100px;
+}
+#postres{
+    background: rgb(223, 102, 54);
+    position: absolute;
+    height: 490px;
+    width: 590px;
+    margin: 5px 5px 5px 1205px;
+    text-align: center;
+    padding-top: 200px;
+}
+#imagenPostre{
+    position: absolute;
+    width: 400px;      
+    height: 175px;     
+    background-color: #ffffff; 
+    margin-top: -655px;
+    margin-left: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    overflow: hidden;
+}
+#imagenPostre img{
+    width: 100%;          /* Hace que la imagen ocupe todo el ancho del div */
+    height: auto;         /* Mantiene la proporción de la imagen */
+    clip-path: ellipse(100% 200% at 50% 0%); /* Recorta la imagen en forma de semicírculo inferior */
+    object-fit: cover; 
+}
+#Galeria{ /*Barra para indicar el inicio de la parte de la galeria*/
+    background: rgb(255, 255, 255);
+    position: absolute;
+    height: 150px;
+    width: 1800px;
+    margin-top: 1900px;
+    margin-left: 50px;
+    font-size: 50px;
+    text-align: center;
+
+}
+#imagenes{
+    background: rgb(100, 190, 226);
+    position: absolute;
+    height: 700px;
+    width: 1800px;
+    margin-top: 2100px;
+    margin-left: 50px;
+
+}
+.fotosRestaurante{
+    background: lightcoral;
+    position: relative;
+    width: 590px;
+    height: 335px;
+    display: inline-block;
+    margin: 5px 0px 0px 5px;
+    overflow: hidden;
+}
+.fotosRestaurante img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.fotosComida{
+    background: lightcoral;
+    position: relative;
+    width: 440px;
+    height: 345px;
+    display: inline-block;
+    margin: 5px 0px 0px 5px;
+    overflow: hidden;
+}
+.fotosComida img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#Promociones{ /*Barra para indicar el inicio de la parte de las promociones*/
+    background: rgb(250, 250, 250);
+    position: absolute;
+    height: 150px;
+    width: 1800px;
+    margin-top: 2850px;
+    margin-left: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+#descuentos{
+    background: rgb(100, 190, 226);
+    position: absolute;
+    height: 700px;
+    width: 1800px;
+    margin-top: 3050px;
+    margin-left: 50px;
+}
+#piePagina{
+    background: white;
+    position: absolute;
+    height: 142px;
+    width: 100vw;
+    margin-left: -7px;
+    margin-top: 3800px;
+
+}
+#promo1{
+    background: rgb(223, 102, 54);
+    position: absolute;
+    width: 400px;
+    height: 340px;
+    margin: 6px 5px 6px 5px;
+    text-align: center;
+    font-size: 30px;
+}
+#promo2{
+    background: rgb(223, 102, 54);
+    position: absolute;
+    width: 400px;
+    height: 340px;
+    margin: 353px 5px 6px 5px;
+    text-align: center;
+    font-size: 30px;
+}
+#promo3{
+    background: rgb(223, 102, 54);
+    position: absolute;
+    width: 980px;
+    height: 340px;
+    margin: 6px 5px 6px 410px;
+    text-align: center;
+    font-size: 30px;
+}
+#promo4{
+    background:rgb(223, 102, 54);
+    position: absolute;
+    width: 486.5px;
+    height: 340px;
+    margin: 353px 5px 6px 410px;
+    text-align: center;
+    font-size: 30px;
+}
+#promo5{
+    background: rgb(223, 102, 54);
+    position: absolute;
+    width: 486.5px;
+    height: 340px;
+    margin: 353px 5px 6px 904px;
+    text-align: center;
+    font-size: 30px;
+}
+#promo6{
+    background: rgb(223, 102, 54);
+    position: absolute;
+    width: 400px;
+    height: 687px;
+    margin: 5px 5px 6px 1395px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.datos{
+    display: inline-block;
+    text-align: center;
+    margin-top: 71px;
+    margin-left: 250px;
+    font-size: 30px;
+}
